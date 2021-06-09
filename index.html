@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/exibindoNumerosPares.js"></script>
+    <title>Minha página</title>
+</head>
+<body >
+     <h1>Treinamento javaScript</h1>     
+     <button type="button" onclick="redirecionar()">Acessar minha página</button>
+     <!-- <p id="agradecimento" onclick="redirecionar()"></p> -->
+     <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+     <select onchange="functionChange(this)">
+        <option value="1">Valor 1</option> 
+        <option value="2">Valor 2</option>         
+        <option value="3">Valor 3</option>         
+     </select>
+     
+     <select onchange="functionChangenumerosPares(this)">
+      <option value="Teste1">Numeros pares</option>     
+      <option value="Teste2">Teste 2</option>           
+   </select>
+
+   <select onchange="analiseNumeros(this)">
+      <option value="Teste1">Analise números</option>     
+      <option value="Teste2">Analise número2</option>           
+   </select>
+
+   <select onchange="contagemCedulas(this)">
+      <option value="Teste1">Cedulas</option>     
+      <option value="Teste2">Cedulas 2</option>           
+   </select>   
+
+
+   <select onchange="consumoMedioAutomovel(this)">
+      <option value="Teste1">Consumo</option>     
+      <option value="Teste2">Consumo 2</option>           
+   </select>      
+
+</body>
+</html>
